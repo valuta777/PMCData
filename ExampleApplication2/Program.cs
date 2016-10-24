@@ -11,7 +11,7 @@ namespace ExampleApplication
         static void Main(string[] args)
         {
             try
-            { 
+            {
                 Random rnd = new Random();
 
                 //Example1
@@ -117,7 +117,7 @@ namespace ExampleApplication
                 //Console.WriteLine(containersExample1.ToString());
                 //Console.WriteLine(containersExample1.ToString());
 
-                File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory +"allData.txt", containersExample1.ToString() + containersExample1.ToString());
+                File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory + "allData.txt", containersExample1.ToString() + containersExample2.ToString());
                 Console.WriteLine("All data saved in " + AppDomain.CurrentDomain.BaseDirectory + "allData.txt");
                 Console.ReadKey();
             }
@@ -128,5 +128,5 @@ namespace ExampleApplication
             }
         }
     }
-    
+
 }
